@@ -10,13 +10,26 @@ body {
 
 .container {
     height: 30%;
+    border: 1px solid blue;
 }
 
 h1 {
     text-align: center;
 }
 
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 nav ul {
     display: flex;
+    justify-content: space-between;
 }
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
 
