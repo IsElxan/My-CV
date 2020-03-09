@@ -24,6 +24,7 @@ ul {
 nav ul {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 nav ul li a {
@@ -38,6 +39,7 @@ main {
 .personal-info-wrapper {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .info-wrapper p span {
